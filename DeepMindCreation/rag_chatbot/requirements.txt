@@ -1,0 +1,8 @@
+langchain-ollama
+pandas
+numpy==1.26.4
+faiss-cpu
+langchain
+langchain-community
+sentence-transformers
+pickle

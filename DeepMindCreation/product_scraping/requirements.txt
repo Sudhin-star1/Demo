@@ -1,0 +1,7 @@
+langchain
+beautifulsoup4
+pandas 
+tqdm
+langchain-ollama
+langchain
+fake-useragent
