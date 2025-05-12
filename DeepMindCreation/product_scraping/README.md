@@ -2,32 +2,29 @@
 
 A complete system for scraping vape product data from e-commerce sites and extracting structured information using LLMs.
 
-
-## Project Structure
+# Project Structure
 product_scraping/
-├── data/                           # Data files
-│   ├── hybridLLMandregex.json         # Hybrid (LLM + regex) extraction results
-│   ├── two_structured_output.json     # Structured output from dual LLMs
-│   ├── vaperanger_vape_products.csv   # Raw scraped data from Vape Ranger
-│   ├── vapewholesaleusa_products.csv  # Raw scraped data from Vape Wholesale USA
-│   ├── vr_structured_output.json      # Vape Ranger LLM-structured output
 │
-├── extractors/                    # Data processing scripts
-│   ├── vape_ranger_extractor.py       # Extracts structured fields from Vape Ranger data
-│   ├── vape_wholesale_extractor.py    # Extracts structured fields from Vape Wholesale USA data
+├── data/
+│ ├── hybridLLMandregex.json # Hybrid (LLM + regex) extraction results
+│ ├── two_structured_output.json # Structured output from dual LLMs
+│ ├── vaperanger_vape_products.csv # Raw scraped data from Vape Ranger
+│ ├── vapewholesaleusa_products.csv # Raw scraped data from Vape Wholesale USA
+│ └── vr_structured_output.json # Vape Ranger LLM-structured output
 │
-├── scrapers/                     # Web scraping scripts
-│   ├── final_vaperanger_scraper.py    # Finalized scraper for Vape Ranger
-│   ├── final_vapewholesale_scraper.py # Finalized scraper for Vape Wholesale USA
+├── extractors/
+│ ├── vape_ranger_extractor.py # Processes Vape Ranger data
+│ └── vape_wholesale_extractor.py # Processes Vape Wholesale USA data
 │
-├── utils/                        # Utility functions and helpers
+├── scrapers/
+│ ├── final_vaperanger_scraper.py # Scrapes Vape Ranger
+│ └── final_vapewholesale_scraper.py # Scrapes Vape Wholesale USA
 │
-├── venv/                         # Python virtual environment
-├── .gitignore                    # Specifies untracked files to ignore
-├── README.md                     # Project documentation (this file)
-└── test.py                       # Test and debug scripts
-
-
+├── utils/ # Utility functions
+├── venv/ # Python virtual environment
+├── .gitignore # Git ignore rules
+├── README.md # Project documentation
+└── test.py # Test scripts
 
 ## Key Features
 
