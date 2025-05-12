@@ -62,7 +62,7 @@ def extract_with_llm(product_data: dict) -> dict:
 
 def main():
     try:
-        df = pd.read_csv("data/vaperanger_vape_products.csv")
+        df = pd.read_csv("data/raw_vaperanger_vape_products.csv")
         raw_products = df.to_dict('records')
     except Exception as e:
         print(f"Error loading data: {str(e)}")

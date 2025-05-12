@@ -58,7 +58,7 @@ def extract_with_llm(product_data: pd.Series) -> dict:
 
 def main():
     try:
-        raw_df = pd.read_csv("data/vapewholesaleusa_products.csv")
+        raw_df = pd.read_csv("data/raw_vapewholesaleusa_products.csv")
     except FileNotFoundError:
         print("Error: data/vapewholesaleusa_products.csv not found. Please run the scraper first.")
         return
