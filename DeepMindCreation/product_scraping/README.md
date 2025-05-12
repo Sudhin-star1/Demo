@@ -81,5 +81,8 @@ vw_structured_output.json: Final processed Vape Ranger data
 
 
 
+## NOTE:
+I have only structured sample raw data because of the computation time and resource an LLM takes to create the structured JSON. Given more compute time and resources, it can be done easily.
+
 ## Author
 Sudhin Karki
